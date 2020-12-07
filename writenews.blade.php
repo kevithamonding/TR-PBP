@@ -119,12 +119,14 @@
                                     Tanggal Terbit<br>
                                     <input type='date' name='tanggal_terbit' class='form-control'>
                                     Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
+                                        <label><input type='radio' value='Sport' name='jenis_berita' class='custom-radio'>
                                             Sport</label><br>
+                                        <label><input type='radio' value='Technology' name='jenis_berita' class='custom-radio'>
+                                            Technology</label><br>
+                                        <label><input type='radio' value='Business' name='jenis_berita' class='custom-radio'>
+                                            Business</label><br>
+                                        <label><input type='radio' value='Entertainment' name='jenis_berita' class='custom-radio'>
+                                            Entertainment</label><br>
                                     Isi Tulisan<br>
                                     <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
                                     <button class="btn" type="submit">Send News</button>
