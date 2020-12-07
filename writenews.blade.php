@@ -85,7 +85,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita/writenews" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +100,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +118,20 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/marc.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Peluang Marc Marquez Juara MotoGP 2021 Terancam Sirna</h1>
+                                <p>
+                                    PBPNEWS.com - Pemilik gelar juara dunia balap motor delapan kali, Marc Marquez ( Repsol Honda), masuk meja operasi untuk kali ketiga terkait cedera lengan. Pernyataan resmi dari Honda menyebutkan Marquez sudah menjalani operasi ketiga pada Kamis (3/12/2020).
+                                </p>
+                                <p>
+                                    Proses berdurasi delapan jam itu meliputi pengambilan tulang dari pinggang yang mengandung banyak darah merah untuk dimasukkan ke area humerus di lengan kanan Marquez. Durasi pemulihan Marc Marquez diprediksi memakan waktu sekitar enam bulan lamanya.
+                                </p>
+                                <p>
+                                    Sementara MotoGP 2021 bakal mulai bergulir pada 28 Maret tahun depan. Jika melihat jadwal sementara MotoGP 2021 dan prediksi pemulihan pebalap berjuluk Baby Alien itu, dia akan sembuh pada akhir Mei 2021. Artinya, dia baru bisa membalap setelah gelaran MotoGP 2021 bergulir sebanyak enam seri. The Baby Alien diprediksi baru bisa beraksi di atas aspal pada 6 Juni 2021, yakni seri MotoGP Catalunya. Secara tidak langsung, peluang Marc Marquez mengejar gelar juara dunia kesembilannya terancam sirna andai melihat jumlah absen yang terpaksa dia korbankan.
+                                    Meski demikian, Repsol Honda tidak mengeluarkan tanggapan soal prediksi pulihnya Marc Marquez.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">
