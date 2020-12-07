@@ -95,9 +95,9 @@
                                     <a href="#" class="dropdown-item">Sub Item 2</a>
                                 </div>
                             </div>
-                            <a href="single-page" class="nav-item nav-link active">Single Page</a>
+                            <a href="single-page" class="nav-item nav-link">Single Page</a>
                             <a href="contact" class="nav-item nav-link">Contact Us</a>
-                            <a href="writenews" class="nav-item nav-link">Write News</a>
+                            <a href="writenews" class="nav-item nav-link active">Write News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
