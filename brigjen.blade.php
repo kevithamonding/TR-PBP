@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -85,7 +86,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +103,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +121,25 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/brigjen.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Perkara Surat Jalan Palsu Djoko Tjandra, Brigjen Prasetijo Dituntut 2,5 Tahun Penjara</h1>
+                                <p>
+                                    JAKARTA, PBPNEWS.com - Mantan Karo Korwas PPNS Bareskrim Polri Brigjen (Pol) Prasetijo Utomo dituntut 2 tahun 6 bulan penjara dalam dugaan kasus surat jalan palsu Joko Soegiarto Tjandra alias Djoko Tjandra. Jaksa penuntut umum (JPU) menilai Prasetijo terbukti membuat surat jalan palsu dalam pelarian Djoko Tjandra.
+                                </p>
+                                <p>
+                                    “Menjatuhkan hukuman pidana terhadap Prasetijo Utomo dengan pidana penjara 2 tahun 6 bulan, dikurangi selama terdakwa dalam tahanan," kata JPU dalam sidang di Pengadilan Negeri Jakarta Timur, Jumat (4/12/2020) seperti dikutip dari Tribunnews.com.
+                                </p>
+                                <p>
+                                    Status Prasetijo sebagai anggota kepolisian dengan jabatan Karo Korwas PPNS Bareskrim Polri menjadi salah satu hal yang memberatkan. “Hal yang memberatkan terdakwa berbelit-belit dan tidak berterusterang memberikan keterangan," ujar JPU.
+                                </p>
+                                <p>
+                                    Sementara, hal yang meringankan adalah Prasetijo tidak pernah melakukan tindak pidana sebelumnya. Dalam kasus itu, Prasetijo diduga melanggar Pasal 263 ayat 1 jo Pasal 55 ayat 1 ke-1 jo Pasal 64 KUHP. Adapun Pasal 263 KUHP menyebutkan ketentuan soal pemalsuan surat atau dokumen.
+                                </p>
+                                <p>
+                                Prasetijo juga disangkakan melanggar Pasal 426 KUHP terkait pejabat yang dengan sengaja membiarkan atau melepaskan atau memberi pertolongan orang yang melakukan kejahatan. Terakhir, Prasetijo dijerat Pasal 221 KUHP terkait menyembunyikan orang yang melakukan kejahatan dan menghalang-halangi penyidikan.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

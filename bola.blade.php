@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,22 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/bola.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Soal Kepastian Kelanjutan Liga 1, Pelatih Persib Tunggu Surat Resmi PSSI</h1>
+                                <p>
+                                    BANDUNG, KOMPAS.com - Pelatih Persib Bandung, Robert Rene Alberts, masih menunggu surat resmi dari PSSI atau PT Liga Indonesia Baru (LIB) 
+                                    terkait jadwal dan format dalam lanjutan Liga 1 2020/2021. Sebelumnya, PT LIB telah mengumumkan bahwa kompetisi strata tertinggi sepak bola Indonesia itu akan kembali digelar pada Februari 2021. 
+                                    Liga 1 2020/2021 akan dilanjutkan pada pertandingan pekan keempat, tanpa perubahan format kompetisi.
+                                </p>
+                                <p>
+                                    Sebelum ditangguhkan pada pertengahan Maret 2020 karena wabah virus corona, Liga 1 2020 sudah bergulir selama tiga pekan. Saat ditangguhkan, Liga 1 2020 sudah memainkan sebanyak 52 pertandingan. "Saya belum melihat adanya surat resmi dari klub, karena normalnya PSSI akan mengirim surat pada manajemen kami dan baru kami tahu kabar resmi terbaru," kata Alberts.
+                                </p>
+                                <p>
+                                    "Sebelum itu (dikirim surat resmi), saya tidak tahu apa yang sudah resmi dan yang belum," sambung pelatih 65 tahun itu saat dihubungi wartawan, Kamis (03/12/2020). Alberts tidak menampik, dirinya memang mengetahui dan mendengar kabar soal jadwal lanjutan Liga 1 2020, begitu pula mengenai formatnya. Namun, Alberts belum mau berspekulasi sebelum menerima surat resmi dari PSSI atau PT LIB. 
+                                    "Dan itu kenapa saya selalu hanya mendengarkan apa kata direktur klub, Teddy, soal informasi mengenai apa yang terjadi," kata Alberts.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -85,7 +86,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="contact.blade.php" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +103,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +121,35 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/kejagung.jpeg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Kejagung Periksa Direktur PT JICT terkait Dugaan Korupsi di Pelindo II</h1>
+                                <p>
+                                    Jakarta - Penyidik Kejaksaan Agung (Kejagung) terus memeriksa saksi untuk mengusut kasus dugaan korupsi di PT Pelindo II (Persero) 
+                                    terkait perpanjangan kontrak Jakarta International Container Terminal (JICT). Hari ini Kejagung memeriksa Direktur Administrasi PT JICT yang juga Kepala Biro Hukum PT Pelindo II, Rati Farinii Srihandi.
+                                </p>
+                                <p>
+                                    "Hari ini telah melakukan pemeriksaan saksi, yaitu Rati Farinii Srihand selaku Direktur Administrasi PT JICT/Kepala Biro Hukum PT Pelindo II," kata Kepala Pusat Penerangan Hukum (Kapuspenkum) Kejagung Hari Setiyono dalam keterangan tertulis, Jumat (4/12/2020).
+                                </p>
+                                <p>
+                                    Rati diperiksa sebagai saksi. Hari mengatakan, pemeriksaan saksi ini dilakukan, untuk mengumpulkan bukti dan membuat terang kasus ini.
+                                    "Pemeriksaan saksi Rati Farinii Srihand selaku Direktur Administrasi PT JICT/Kepala Biro Hukum PT Pelindo II. Pemeriksaan saksi itu sendiri 
+                                    dilakukan guna mencari serta mengumpulkan bukti yang dengan bukti itu, membuat terang tentang tindak pidana yang terjadi dan guna menemukan 
+                                    tersangkanya, sesuai dengan ketentuan yang diatur dalam Pasal 1 angka 2 KUHAP," ucapnya.
+                                </p>
+                                <p>
+                                    Diberitakan sebelumnya, Kejaksaan Agung mengatakan penyidikan terhadap kasus dugaan korupsi PT Pelindo II diduga berkaitan dengan Jakarta International Container Terminal (JICT). Pasalnya, Kejagung menyebut ada perbuatan melawan hukum dalam perpanjangan kontrak dermaga tersebut.
+                                </p>
+                                <p>
+                                    "Penyidik melakukan penyidikan di Pelindo II, dugaannya itu di sana ada JICT (Jakarta International Container Terminal) diduga operasi terhadap JICT itu, masa berlakunya habis pada 2015. Dugaan perpanjangannya inilah setelah 2015 ini, diduga ada perbuatan melawan hukum," kata Hari kepada wartawan di kompleks Kejagung, Jalan Bulungan, Kebayoran Baru, Jakarta Selatan, Senin (26/10).
+                                </p>
+                                <p>
+                                    Hari menerangkan, pihaknya saat ini tengah gencar melakukan penyidikan terkait perjanjian dan perbuatan melawan hukum dalam kasus tersebut. Meski begitu, Hari belum mau menyebutkan terkait kerugian negara akibat kasus perusahaan pelat merah itu.
+                                </p>
+                                <p>
+                                    "Ini masih dicari. Jadi terkait pengelolaan pelabuhan oleh JICT yang diduga perjanjiannya sudah habis, kemudian diduga ada perbuatan melawan hukum ketika dilakukan perpanjangan, seperti apa. Inilah yang sekarang masih proses penyidikan, kerugian keuangan negaranya berapa, masih belum dihitung secara tuntas," tuturnya.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

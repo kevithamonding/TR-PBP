@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="contact.blade.php" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,28 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/tan.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Tan Joe Hok dan Polemik Masa Lalu di Era Kejayaan Bulu Tangkis Indonesia</h1>
+                                <p>
+                                    PBPNEWS.com - Legenda bulu tangkis Indonesia, Tan Joe Hok, mengungkapkan polemik yang pernah terjadi dalam perbulutangkisan nasional.
+                                </p>
+                                <p>
+                                    Tan Joe Hok merupakan satu dari sederet sosok berjasa dalam perkembangan olahraga tepuk bulu nasional. Dia dikenal sebagai pionir prestasi bulu tangkis Indonesia.
+                                </p>
+                                <p>
+                                    Selama berkarier, Tan Joe Hok pernah menjadi bagian dari "The Magnificient Seven" yang memenangkan Piala Thomas pertama untuk Indonesia pada 1958.
+                                </p>
+                                <p>
+                                    Tak berhenti di situ, Tan Joe Hok pun tercatat sebagai pebulu tangkis Indonesia pertama yang mampu membawa gelar All England ke Tanah Air.
+                                </p>
+                                <p>
+                                    Lewat prestasinya tersebut, dia membawa bulu tangkis Indonesia menuju era kejayaan pada medio 1950-1960an. Tan Joe Hok dkk membuat Indonesia dikenal sebagai negeri bulu tangkis hingga saat ini.
+                                </p>
+                                <p>
+                                    Dia kemudian berbagi cerita perjuangannya dalam acara webinar bertajuk "Tionghoa dalam Dunia Olahraga" yang juga dihadiri PBPNEWS.com, Senin (30/11/2020) malam WIB. Tan Joe Hok berbicara soal polemik yang pernah melanda perbulu tangkisan Indonesia. Berdasarkan cerita Tan Joe Hok, polemik yang terjadi berkaitan dengan isu diskriminasi dan kesejahteraan pemain.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

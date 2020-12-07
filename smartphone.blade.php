@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,45 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/smartphone.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">5 Smartphone Harga Terjangkau untuk Belajar dari Rumah</h1>
+                                <p>
+                                    PBPNEWS.com - Kegiatan pembelajaran jarak jauh secara online saat ini masih banyak dilangsungkan. Komputer atau gadget mobile pun menjadi barang kebutuhan untuk memfasilitasi anak dalam bersekolah dari rumah. Gadget yang dipakai untuk keperluan ini tak harus berharga mahal. Smartphone masa kini sudah cukup andal untuk menangani tugas seperti video conferencing dengan lancar, termasuk model-model yang berharga relatif terjangkau di kelas entry level.
+                                </p>
+                                <p>
+                                    Para vendor smartphone terbesar di Indonesia memiliki tawaran masing-masing untuk segmen harga di bawah Rp 2 juta. Bingung memilih di antara sekian banyak opsi yang tersedia? Sebagai bagian dari event Pop ID yang diselenggarakan oleh KG Media dan Google, KompasTekno menghimpun lima smartphone ramah kantong yang layak dipertimbangkan untuk keperluan belajar online. Selengkapnya bisa disimak di bawah.
+                                </p>
+                                <p>
+                                    Anda juga bisa ikut memilih mana di antara lima smartphone ini yang menurut Anda paling menarik, dengan mengunjungi situs Pop ID di alamat popid.kompas.com antara tanggal 4 Desember 2020 hingga 4 Januari 2021.
+                                </p>
+                                <p>
+                                    <h3>Oppo A12 - Rp 1.899.000</h3>
+                                </p>
+                                <p>
+                                    Lihat Foto Oppo A12.(Oppo) Salah satu perangkat yang bisa dijadikan pilihan untuk mendukung kegiatan belajar dari rumah adalah Oppo A12. Smartphone yang resmi memasuki pasaran Indonesia pada April 2020 ini dibekali layar 6,22 inci dengan resolusi HD Plus. Seperti juga kebanyakan ponsel lain di segmen harga ini, kamera depan Oppo A12 yang beresolusi 5 MP termuat di dalam notch model waterdrop yang bertengger di atas layar. Kamera belakangnya hanya berjumlah dua buah, terdiri dari kamera utama 13 MP dan kamera depth sensor 2 MP. Namun, punggung Oppo A12 terlihat unik karena memiliki pola diagonal yang membuatnya tampil beda. Sebuah pemindai sidik jari juga bisa ditemukan di sisi ini. Hardware Oppo A12 mencakup chip MediaTek Helio P35, RAM 3 GB, media internal 32 GB yang bisa diperluas dengan kartu memori microSD hingga 256 GB, dual-SIM, serta baterai 4.230 mAh dengan pengisian daya 10 watt.
+                                </p>
+                                <p>
+                                    <h3>Realme C3 - Rp 1.699.000</h3>
+                                </p>
+                                <p>
+                                    Realme termasuk pendatang baru yang naik daun dalam waktu cepat di dunia gadget Indonesia. Pabrikan yang merupakan spin-off dari Oppo ini bahkan sudah beberapa waktu duduk di daftar 5 pabrikan smartphone terbesar di Tanah Air. Untuk segmen harga di bawah Rp 2 juta, Realme menawarkan beberapa produk. Salah satunya yang menarik adalah Realme C3 yang dibekali dengan tiga kamera belakang, terdiri dari kamera utama 12 MP, kamera makro 2 MP, dan kamera depth sensor 2 MP. Kamera depan beresolusi 5 MP termuat di dalam poni alias notch yang bertengger di atas layar dengan diagonal 6,5 inci (resolusi HD Plus). Sebuah pemindai sidik jari berbentuk bundar tersemat di sisi belakang. Jeroan Realme C3 mencakup chip MediaTek Helio G70, RAM 3 GB, storage 32 GB dengan dukungan microSD hingga 256 GB, dual-SIM, serta baterai berkapasitas 5.000 mAh dengan pengisian daya 10 watt.
+                                </p>
+                                <p>
+                                    <h3>Vivo Y12i - Rp 1.899.000</h3>
+                                </p>
+                                <p>
+                                    Sebagai versi lebih "ringan" dari Y12, Vivo V12i dibanderol dengan harga lebih terjangkau pula, tapi spesifikasinya masih memadai untuk dipakai menunjang kegiatan school from home. Seperti Y12, ponsel ini masih dibekali layar lebar berdiagonal 6,35 inci (resolusi HD Plus) dengan poni yang memuat kamera depan beresolusi 8 MP. Di bagian punggung tersemat sebuah pemindai sidik jari, berikut dua kamera belakang yang terdiri dari kamera utama 12 MP dan kamera depth sensor 2 MP. Spesifikasi lain dari Vivo Y12i mencakup chip Snapdragon 439, RAM 3 GB, media internal 32 GB yang bisa diperluas dengan microSD hingga 256 GB, dan dukungan dual SIM. Kapasitas baterai baterai Vivo Y12i termasuk besar di kelasnya, yakni 5.000 mAh, dan turut mendukung pengisian cepat dengan daya sebesar 18 watt.
+                                </p>
+                                <p>
+                                    <h3>Xiaomi Redmi 9<br>
+                                    Rp 1.799.000 (3 GB/ 32 GB)<br> 
+                                    Rp 1.999.000 (4 GB/ 64 GB)</h3>
+                                </p>
+                                <p>
+                                    Nama Xiaomi sudah tak asing lagi di segmen entry level, bahkan juga identik dengan ponsel berharga terjangkau. Salah satu model terbarunya di 2020 adalah Redmi 9, penerus dari Redmi 8 keluaran tahun lalu. Redmi 9 memiliki layar selebar 6,53 inci dengan resolusi Full-HD Plus sehingga terbilang lega untuk telekonferensi tatap muka atau melihat materi pelajaran, meski sedikit terhalang poni yang memuat kamera depan beresolusi 8 MP. Salah satu kelebihan Redmi 9 adalah kamera belakang berjumlah empat buah, terdiri dari kamera utama 13 MP, kamera ultra wide 8 MP, kamera makro 5 MP, dan kamera depth sensor 2 MP. Ketiga kamera diletakkan secara vertikal, sejajar dengan pemindai sidik jari di bagian belakang. Dapur pacunya mengandalkan chip MediaTek Helio G80, berikut baterai 5.020 mAh dengan fast charging 18 watt. Tersedia pula slot dual-SIM untuk mereka yang ingin mengaktifkan lebih dari satu nomor ponsel. Untuk memori ada dua varian Redmi 9 yang tersedia di Indonesia, yakni RAM 3 GB dan storage 32 GB, serta RAM 4 GB dan storage 64 GB. Banderol keduanya berselisih Rp 200.000.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,23 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/mendag.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Mendag Agus Berharap Pembiayaan Ekspor Dapat Bantu "UKM Naik Kelas"</h1>
+                                <p>
+                                    PBPNEWS.com – Menteri Perdagangan (Mendag) Agus Suparmanto menekankan, berbagai terobosan perlu terus dilakukan untuk meningkatkan ekspor dan mendukung usaha kecil menengah ( UKM) untuk gencar mengekspor. Hal tersebut harus dilakukan, terutama pada masa pandemi Covid-19 seperti sekarang. “Nantinya, pembiayaan ekspor ini diharapkan dapat membantu "UKM Naik Kelas" untuk tetap menggerakkan roda usahanya,” kata Agus, seperti dalam keterangan tertulis yang PBPNEWS.com terima, Jumat (04/12/2020)
+                                </p>
+                                <p>
+                                    Pernyataan itu ia sampaikan usai menyaksikan penyerahan pembiayaan ekspor Lembaga Pembiayaan Ekspor Indonesia (LPEI), PT Bank Rakyat Indonesia (BRI), dan Bank Bank Negara Indonesia (BNI) di Hotel JW Marriott Surabaya, Jawa Timur (Jatim), Kamis (03/12/2020).
+                                    Agus yakin, dengan berjalannya roda usaha, UKM mampu berkontribusi dalam peningkatan ekspor nonmigas dan ikut memperbaiki neraca perdagangan dan ekonomi nasional. Terkait pembiayaan ekspor tersebut, Agus mengatakan, telah diberikan kepada 14 pelaku usaha UKM berorientasi ekspor dengan nilai mencapai Rp 167 miliar.
+                                </p>
+                                <p>
+                                    "Komoditas ekspor dari para pelaku UKM yang menerima pembiayaan ekspor itu, diantaranya hasil laut seperti ikan dan udang, produk kayu dan mebel, hingga alas kaki," jelasnya. Lebih lanjut Agus mengatakan, pemberian pembiayaan ekspor menjadi salah satu wujud sinergi dan kolaborasi yang erat antara semua pihak.
+                                </p>
+                                <p>
+                                    "Pihak tersebut, seperti pemerintah pusat, pemerintah daerah (pemda), pelaku usaha, termasuk perbankan dan LPEI dalam memberikan kemudahan dukungan pembiayaan untuk ekspor," paparnya.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

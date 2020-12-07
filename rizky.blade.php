@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,23 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/smartphone.jpg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Ini Impian Rizky Billar yang Ingin Dicapainya</h1>
+                                <p>
+                                    JAKARTA, PBPNEWS.com - Artis peran  Rizky Billar mengungkap impiannya yang belum tercapai hingga saat ini. Rizky mengatakan, impiannya ini terkait dengan keluarga.
+                                </p>
+                                <p>
+                                    "Saya pengin keluar bareng keluarga, misal kakak saya ke Jepang, mungkin saya pengin susul main ke Jepang bareng keluarga," kata Rizky seperti dikutip Kompas.com dalam kanal YouTube KH Infotainment, Jumat (4/12/2020). 
+                                    Bukan hanya itu, pria kelahiran Juli 1995 itu juga ingin mempunyai sebuah mobil, tetapi bukan mobil pada umumnya yang ingin dimiliki.
+                                </p>
+                                <p>
+                                    "Insy Allah, siapa tahu bisa kebeli rumah yang lain atau siapa tahu juga bisa beli super car," ucap Rizky. Sampai saat ini, Rizky telah memiliki rumah yang baru saja ia beli. Saat ditanya apakah rumah itu di atas Rp 5 miliar, ia tidak menampiknya
+                                </p>
+                                <p>
+                                    "Yang pasti lumayanlah (harganya), hasil jerih payah saya bisa terkumpul beli rumah itu. Ya sekitar segitulah (Rp 5 miliar)," ujar Rizky. Kendati demikian, pemilik nama lengkap Muhammad Rizky Billar itu tidak ingin merenovasi rumahnya itu.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">

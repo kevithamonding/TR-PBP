@@ -85,7 +85,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/berita" class="nav-item nav-link">Home</a>
-                            <a href="contact.blade.php" class="nav-item nav-link active">Upload News</a>
+                            <a href="/berita" class="nav-item nav-link">Update News</a>
+                            <a href="/berita" class="nav-item nav-link">Delete News</a>
+                            <a href="/berita/upload" class="nav-item nav-link">Upload News</a>
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,6 +102,17 @@
         </div>
         <!-- Nav Bar End -->
         
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/berita">Home</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
         <!-- Single News Start-->
         <div class="single-news">
             <div class="container">
@@ -107,28 +120,27 @@
                     <div class="col-lg-8">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <img src="/assets/img/wnstep.jpg" />
+                                <img src="/assets/img/survei.jpeg" />
                             </div>
                             <div class="sn-content">
-                                <b> Silahkan Isi Form di bawah ini :</b><br><br>
-                                <form class="bold">
-                                    Judul<br>
-                                    <input type='text' name='judul' placeholder='Tulis judul...' class='form-control'>
-                                    Nama Penulis<br>
-                                    <input type='text' name='nama_penulis' placeholder='Cth: Fanny Cantik...' class='form-control'>
-                                    Tanggal Terbit<br>
-                                    <input type='date' name='tanggal_terbit' class='form-control'>
-                                    Kategori Berita<br>
-                                        <label><input type='radio' value='news' name='jenis_berita' class='custom-radio'>
-                                            News</label><br>
-                                        <label><input type='radio' value='teknologi' name='jenis_berita' class='custom-radio'>
-                                            Teknologi</label><br>
-                                        <label><input type='radio' value='sport' name='jenis_berita' class='custom-radio'>
-                                            Sport</label><br>
-                                    Isi Tulisan<br>
-                                    <textarea class='form-control' name='isi_berita' rows='10' placeholder='Isi berita di sini..'></textarea>
-                                    <button class="btn" type="submit">Send News</button>
-                                </form>
+                            <h1 class="sn-title">Survei Charta Politika Pilwalkot Surabaya: Eri 51,2%, Machfud 40,7%</h1>
+                                <p>
+                                    Surabaya - Charta Politika Indonesia melakukan survei terkait calon Wali Kota dan Wakil Wali Kota Surabaya. Hasilnya, elektabilitas pasangan Eri Cahyadi-Armuji unggul dari pasangan Machfud Arifin-Mujiaman Sukirno.
+                                </p>
+                                <p>
+                                    "Pasangan Eri Cahyadi-Armuji mendapatkan elektabilitas 51,2 persen, sedangkan pasangan Machfud Arifin-Mujiaman Sukirno dipilih oleh 40,7 persen responden. Sementara sebanyak 8,1 persen responden menyatakan tidak tahu," papar Charta Politika Indonesia dalam keterangan tertulis, Jumat (4/12/2020).
+                                </p>
+                                <p>
+                                    Survei tersebut dilakukan pada 18-24 November dengan menggunakan metode multistage random sampling. Survei itu melibatkan 1.200 responden dengan wawancara tatap muka maupun kuesioner. Margin of error dari survei tersebut mencapai kurang-lebih 2,83 persen.
+                                </p>
+                                <p>
+                                    Charta Politika menjelaskan, jika dilihat dari tren hasil survei, suara pasangan Eri-Armuji meningkat signifikan dibanding survei pada September lalu yang hanya memperoleh 41,9%. Sementara itu, suara untuk pasangan Machfud-Mujiaman terbilang stagnan, yakni 41,4% ke 40,7%.
+                                    "Dari 4 nama calon Wali Kota dan Wakil Wali Kota yang bertarung, semuanya sudah memiliki tingkat pengenalan di atas 80 persen. Hanya nama Mujiaman Sukirno yang masih memiliki tingkat pengenalan sedikit di bawah 80 persen," papar Charta Politika.
+                                </p>
+                                <p>
+                                Lalu pada aspek strong voters, pasangan Eri-Armuji mencapai 85,5% dan Machfud-Mujiaman mengoleksi 73,8%.
+                                Secara keseluruhan, mayoritas responden puas dengan kinerja Pemerintah Kota Surabaya. Hanya 5,5% responden yang tidak puas dengan pemda.
+                                </p>
                             </div>
                         </div>
                         <div class="sn-related">
